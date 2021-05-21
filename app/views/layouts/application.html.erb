@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio</title>
+    <title>My Portfolio</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Berkshire+Swash&family=Concert+One&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <%= yield %>
+    <div class="background" style="background-image:url(<%= asset_path "yuruneko11.png" %>)">
+      <%= yield %>
+    </div>
   </body>
+
+  <%= render "shared/footer" %>
 </html>
