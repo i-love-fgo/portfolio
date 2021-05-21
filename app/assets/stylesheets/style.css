@@ -15,16 +15,21 @@ div {
 }
 
 body {
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
   font-family: 'Aclonica', sans-serif;
   font-family: 'Berkshire Swash', cursive;
   font-family: 'Concert One', cursive;
   color: #3b4043;
-  background-repeat: repeat;
 }
 
 .background {
   background-image: url("yuruneko11.png");
-  /* background-size: cover; */
+  background-size: 1000px;
+  background-position: top 30%;
+  background-attachment: fixed;
+  background-repeat: repeat;
   height: 50vh;
   background-color: rgba(255, 255, 255, 0.5);
   background-blend-mode: lighten;
@@ -46,7 +51,7 @@ a {
 .header {
   background-color: #f1f8fe;
   margin-bottom: 48px;
-  padding: 20px 0;
+  padding: 15px 0;
 
 }
 .inner {
