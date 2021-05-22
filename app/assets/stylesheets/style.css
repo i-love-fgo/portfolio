@@ -19,16 +19,14 @@ body {
   padding: 0px;
   width: 1440px;
   text-align: center;
-  font-family: 'Aclonica', sans-serif;
-  font-family: 'Berkshire Swash', cursive;
-  font-family: 'Concert One', cursive;
   color: #3b4043;
+  font-size: 20px;
 }
 
 .background {
   background-image: url("yuruneko11.png");
   background-size: 1500px;
-  background-position: left top 225px;
+  background-position: left top 230px;
   background-attachment: fixed;
   background-repeat: repeat;
   height: 96vh;
@@ -63,6 +61,10 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  font-family: 'Aclonica', sans-serif;
+  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Concert One', cursive;
+  font-family: 'Goblin One', cursive;
 }
 .logo {
   width: 200px;
