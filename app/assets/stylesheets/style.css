@@ -18,16 +18,16 @@ body {
   font-family: 'Kosugi Maru', sans-serif;;
   text-align: center;
   color: #3b4043;
-  font-size: 20px;
+  font-size: 35px;
+  background-attachment: scroll;
 }
 
 .background {
   background-image: url("yuruneko11.png");
   background-size: 1500px;
   background-position: left top 235px;
-  background-attachment: scroll;
   background-repeat: repeat;
-  height: 96vh;
+  height: 110vh;
   background-color: rgba(255, 255, 255, 0.5);
   background-blend-mode: lighten;
 }
