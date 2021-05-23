@@ -60,11 +60,7 @@ a {
 .nav {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  font-family: 'Aclonica', sans-serif;
-  font-family: 'Berkshire Swash', cursive;
-  font-family: 'Concert One', cursive;
-  font-family: 'Goblin One', cursive;
+  justify-content: center;
 }
 .logo {
   width: 200px;
