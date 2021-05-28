@@ -21,16 +21,23 @@ body {
   font-size: 35px;
 }
 
-.background {
-  background-image: url("yuruneko11.png");
+.parallax_content {
+  justify-content: center;
+  align-items: center;
   background-size: 1500px;
   background-position: left top 260px;
   background-repeat: round;
-  height: 100vh;
+  height: 99.9vh;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   background-blend-mode: lighten;
-  background-attachment: scroll;
+  background-attachment: fixed;
+}
+.img_bg_1 {
+  background-image: url("yuruneko11.png");
+}
+.img_bg_2 {
+  background-image: url("nikukyuu.jpeg");
 }
 li {
   list-style: none;
@@ -75,8 +82,8 @@ a {
   position: relative;
   display: flex;
   text-align: center;
-  width: 450px;
-  height: 400px;
+  width: 600px;
+  height: 500px;
   overflow:hidden;
   padding:0!important;
 }
