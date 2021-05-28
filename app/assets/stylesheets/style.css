@@ -72,9 +72,11 @@ a {
   transition: 0.4s ease;
 } */
 #aspslide{
-  position: relative;      
-  width: 300px;
-  height: 250px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  width: 450px;
+  height: 400px;
   overflow:hidden;
   padding:0!important;
 }
