@@ -4,18 +4,27 @@
     <title>My Portfolio</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Berkshire+Swash&family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <div class="background" style="background-image:url(<%= asset_path "yuruneko11.png" %>)">
-      <%= yield %>
+    <div class="parallax_box">
+      <div class="parallax_content img_bg_1" style="background-image:url(<%= asset_path "yuruneko11.png" %>)">
+        <%= yield %>
+      </div>
+      <div class="parallax_content img_bg_2" style="background-image:url(<%= asset_path "nikukyuu.jpeg" %>)"><br>
+      <div id="aspslide"><br>
+          <div id="asnakami1" class="asnakami"><%= image_tag "IMG_1495-min.JPG", class:"photo" %></div>
+          <div id="asnakami2" class="asnakami"><%= image_tag "IMG_1497-min.JPG", class:"photo" %></div>
+          <div id="asnakami3" class="asnakami"><%= image_tag "IMG_1498-min.JPG", class:"photo" %></div>
+          <div id="asnakami4" class="asnakami"><%= image_tag "IMG_1500-min.JPG", class:"photo" %></div>
+          <div id="asnakami5" class="asnakami"><%= image_tag "IMG_1501-min.JPG", class:"photo" %></div>
+          <div id="asnakami6" class="asnakami"><%= image_tag "IMG_1502-min.JPG", class:"photo" %></div>
+      </div>
     </div>
   </body>
-
   <%= render "shared/footer" %>
 </html>
