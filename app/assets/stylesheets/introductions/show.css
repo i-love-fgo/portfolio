@@ -104,10 +104,10 @@
   width: 200px; 
   text-align: left;
   margin-top: 190px;
-  margin-left: 75px;
+  margin-left: 95px;
   color:#FFF;
   padding: 25px;
-  background-color: #f39800;
+  background-color: #ffa07a;
   border-radius: 5px;
   font-size: 20px;
 }
@@ -117,7 +117,7 @@
   display: block;
   z-index: 1;
   border-style: solid;
-  border-color: #f39800 transparent;
+  border-color: #ffa07a transparent;
   border-width: 0 10px 10px 10px;
   top: -10px;
   left: 50%;
