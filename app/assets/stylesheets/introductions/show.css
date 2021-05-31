@@ -1,0 +1,125 @@
+.mybox{
+	background-color: #F6D4D8;  /* 背景色 */
+	border-radius: 5px;
+	margin-left: 500px;
+  margin-top: -450px;
+	padding: 45px 20px 20px 20px; /* 内側の余白 上・右・下・左 */
+	position: relative;
+	z-index: 0;
+  text-align: start;
+  align-items: center;
+  width: 850px;
+  color: #191970;
+}
+.mybox:before{
+	border: 1px solid #fff; /* 白い実線 */
+	border-radius: 5px;
+	content: '';
+	display: block;
+	margin: 4px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: -1;
+}
+.mybox:after{
+	background-color: rgba(249,223,213,0.9);  /* マステ背景色 */
+	background-image: radial-gradient(#fff 20%, transparent 0), radial-gradient(#fff 20%, transparent 0); /* 水玉の色 */
+	background-position: 0 0, 8px 8px;  /* 水玉の距離 */
+	background-size: 15px 15px; /* 水玉の大きさ */
+	border-left: 2px dotted rgba(0,0,0,0.1);
+	border-right: 2px dotted rgba(0,0,0,0.1);
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	content: 'サイト主について';
+  color: #dc143c;
+	display: block;
+	padding: 5px 20px;  
+	text-align: center;
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+}
+
+.mybox2{
+	background-color: #F6D4D8;  /* 背景色 */
+	border-radius: 5px;
+	margin-left: 500px;
+  margin-top: 40px;
+	padding: 50px 20px 20px 20px; /* 内側の余白 上・右・下・左 */
+	position: relative;
+	z-index: 0;
+  text-align: start;
+  width: 850px;
+  color: #191970;
+}
+.mybox2:before{
+	border: 1px solid #fff; /* 白い実線 */
+	border-radius: 5px;
+	content: '';
+	display: block;
+	margin: 4px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: -1;
+}
+.mybox2:after{
+	background-color: rgba(249,223,213,0.9);  /* マステ背景色 */
+	background-image: radial-gradient(#fff 20%, transparent 0), radial-gradient(#fff 20%, transparent 0); /* 水玉の色 */
+	background-position: 0 0, 8px 8px;  /* 水玉の距離 */
+	background-size: 15px 15px; /* 水玉の大きさ */
+	border-left: 2px dotted rgba(0,0,0,0.1);
+	border-right: 2px dotted rgba(0,0,0,0.1);
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	content: 'プログラミングについて';
+  color: #dc143c;
+	display: block;
+	padding: 5px 20px;  
+	text-align: center;
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+}
+.box {
+  display: block;
+  margin-left: 50px;
+  width: 250px;
+  height: 160px;
+}
+.bubble02 {
+  position: relative;
+  display: flex;
+  width: 200px; 
+  text-align: left;
+  margin-top: 190px;
+  margin-left: 75px;
+  color:#FFF;
+  padding: 25px;
+  background-color: #f39800;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.bubble02:before {
+  content: '';
+  position: absolute;
+  display: block;
+  z-index: 1;
+  border-style: solid;
+  border-color: #f39800 transparent;
+  border-width: 0 10px 10px 10px;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+}
