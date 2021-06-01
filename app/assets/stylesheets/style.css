@@ -153,7 +153,8 @@ a {
   26% { opacity:0;left:100%; }
   99.99% { opacity:0;left:100%; }
   100% { opacity:0;left:0%; }
- }
+}
+
 .footer {
   background-color: #999;
   padding: 10px 0;
@@ -173,13 +174,13 @@ a {
   .page-heading {
     font-size: 24px;
   }
-  .card {
+  /* .card {
     width: 48%;
     margin-bottom: 40px;
-  }
-  .prototype_image{
+  } */
+  /* .prototype_image{
     width: 60%;
-  }
+  } */
 }
 
  /* スマホ表示 */
@@ -200,9 +201,9 @@ a {
   .card__summary {
     font-size: 14px;
   }
-  .prototype_image{
+  /* .prototype_image{
     width: 100%;
-  }
+  } */
   .table{
     width: 100%;
   }
