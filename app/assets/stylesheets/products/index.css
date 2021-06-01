@@ -1,15 +1,16 @@
 .mybox3{
-  background-color: #F6D4D8;  /* 背景色 */
+  background-color: #ffe4b5;  /* 背景色 */
 	border-radius: 5px;
 	margin-left: 500px;
-  margin-top: -450px;
+  margin-top: -420px;
 	padding: 45px 20px 20px 20px; /* 内側の余白 上・右・下・左 */
 	position: relative;
 	z-index: 0;
   text-align: start;
   align-items: center;
-  width: 850px;
+  width: 870px;
   color: #191970;
+  font-size: 25px;
 }
 .mybox3:before{
   border: 1px solid #fff; /* 白い実線 */
@@ -25,7 +26,7 @@
 	z-index: -1;
 }
 .mybox3:after{
-  background-color: rgba(249,223,213,0.9);  /* マステ背景色 */
+  background-color: rgba(255,215,0,0.6);  /* マステ背景色 */
 	background-image: radial-gradient(#fff 20%, transparent 0), radial-gradient(#fff 20%, transparent 0); /* 水玉の色 */
 	background-position: 0 0, 8px 8px;  /* 水玉の距離 */
 	background-size: 15px 15px; /* 水玉の大きさ */
@@ -57,7 +58,7 @@
   display: inline-block;
   min-width: 200px;
   max-width: 100%;
-  background-color: #1a62bc;
+  background-color: #87cefa;
   color: #ffffff;
   border-radius: 20px;
   margin-left: -1050px;
