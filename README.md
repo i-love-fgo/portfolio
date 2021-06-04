@@ -1,24 +1,20 @@
-# README
+## アプリケーション名
+ My Portfolio      
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリケーション概要
+ このアプリケーションは、私自身の紹介やこれまで手掛けてきたアプリケーションの紹介や、その際に苦労した点についてまとめた内容になります。                  
 
-Things you may want to cover:
+## URL
+ https://portfolio-0112.herokuapp.com/
 
-* Ruby version
 
-* System dependencies
+## 利用方法
+ どなたでも自由にご覧になれるように、制限を設けておりません。私自身のこと、アプリケーションについてなど知って頂きたく思います。                    
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## ローカルでの操作
+ git clone https://portfolio-0112.herokuapp.com/  
+ cd cat-fortune                 
+ bundle install                 
+ yarn install                   
+ rails db:create                
+ rails db:migrate    
